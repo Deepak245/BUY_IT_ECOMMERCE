@@ -54,7 +54,7 @@ export const getProducts =
       }
       const { data } = await axios.get(link);
       // console.log(data);
-      //after pulling data dispath the action
+      //after pulling data dispath the action and data to concerned reducer so from above step we get data from data base.
       //once after firing network request we get our data in data . this data we are linking to payload
       // now when we dispatch the action with data. this goes in reducer. so here the action = { type: ALL_PRODUCTS_SUCCESS,payload: data,  }
 
